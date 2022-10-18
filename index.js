@@ -9,4 +9,6 @@ const user = new User(230, 10);
 gameWindow.addUser(user);
 
 // TODO: Find out why I coudln't make this work in jQuery syntax
-document.addEventListener('keydown', user.move)
+document.addEventListener('keydown', (event) => {
+    user.move(event, gameWindow);
+})
