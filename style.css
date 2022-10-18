@@ -18,9 +18,7 @@
 }
 
 .ball {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
   background-color: red;
+  /* WARNING: DO NOT STYLE WIDTH, HEIGHT, POSITION, BORDER RADIUS, OR ANYTHING BELOW */
+  position: absolute;
 }
