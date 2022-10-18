@@ -16,6 +16,7 @@ window.addEventListener('keyup',   (e) => keyState[e.keyCode || e.which] = false
 
 function gameLoop() {
     user.move(getUserInput());
+    ball.move();
 
     setTimeout(gameLoop, TICK_LENGTH);
 }    
