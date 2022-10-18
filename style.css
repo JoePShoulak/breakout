@@ -1,17 +1,20 @@
 .grid {
-  position: absolute;
   outline: solid 1px black;
   margin-top: 100px;
+  /* WARNING: DO NOT STYLE WIDTH, HEIGHT, OR ANYTHING BELOW */
+  position: absolute;
 }
 
 .user {
-  position: absolute;
   background-color: blueviolet;
+  /* WARNING: DO NOT STYLE WIDTH, HEIGHT, OR ANYTHING BELOW */
+  position: absolute;
 }
 
 .block {
-  position: absolute;
   background-color: blue;
+  /* WARNING: DO NOT STYLE WIDTH, HEIGHT, POSITION, OR ANYTHING BELOW */
+  position: absolute;
 }
 
 .ball {
